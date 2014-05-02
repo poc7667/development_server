@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Model name:
+  = @url_command.model_name
+%p
+  %b Firmware version:
+  = @url_command.firmware_version
+
+= link_to 'Edit', edit_url_command_path(@url_command)
+\|
+= link_to 'Back', url_commands_path

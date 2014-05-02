@@ -1,0 +1,9 @@
+= simple_form_for(@url_command) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :model_name
+    = f.input :firmware_version
+
+  .form-actions
+    = f.button :submit
