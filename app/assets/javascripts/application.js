@@ -13,6 +13,5 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree ../lenord-single-page-theme/js
-//= require_tree ../ace-admin-theme/js
+//= require_tree ../../../vendor/assets/lenord-single-page-theme/js/.
 //= require_tree .
