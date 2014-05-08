@@ -1,0 +1,924 @@
+system_hostname...string[64]...1/6...Mega-Pixel Network Camera
+system_ledoff...<boolean>...6/6...0
+system_date...<YYYY/  MM  [d1]   /DD>...6/6...<current date>
+system_time...<hh:mm:ss>...6/6...<current time>
+system_datetime...<MMDDhhmmYYYY.ss>...6/6...<current time>
+system_ntp...<domain name>,<ip address>,<blank>...6/6...<blank>
+system_timezoneindex...-489 ~ 529...6/6...320
+system_daylight_enable...<boolean>...6/6...0
+system_daylight_dstactualmode...1~4<positive integer>...6/7...1
+system_daylight_auto_begintime...string[19]...6/7...NONE
+system_daylight_auto_endtime...string[19]...6/7...NONE
+system_daylight_timezones...string...6/6...,-360,-320,-280,-240, -241,-200, -201,-160, -140,-120, -80,-40,0, 40,41,80,81,82,83,120,140,380,400,480
+system_updateinterval...0,3600,86400,604800,2592000...6/6...0
+system_restore...0,<positive integer>...7/6...N/A
+system_reset...0,<positive integer>...7/6...N/A
+system_restoreexceptnet...<Any value>...7/6...N/A
+system_restoreexceptdst...<Any value>...7/6...N/A
+system_restoreexceptlang...<Any Value>...7/6...N/A
+system_restoreexceptvadp...<integer>...7/6...N/A
+system_info_modelname...string[40]...0/7...FD8156
+system_info_extendedmodelname...string[40]...0/7...FD81  56
+system_info_serialnumber...<mac address>...0/7...<product mac address>
+system_info_firmwareversion...string[40]...0/7...FD8156-VVTK-0100  b  <del> a </del>
+system_info_language_count...<integer>...0/7...9
+system_info_language_i0...string[16]...0/7...EnglishDeutschEspañolFrançaisItaliano¤éĽťťyPortugues简Ę^¤¤¤ĺÁcĹé¤¤¤ĺ
+system_info_language_i1...string[16]...0/7...EnglishDeutschEspañolFrançaisItaliano¤éĽťťyPortugues简Ę^¤¤¤ĺÁcĹé¤¤¤ĺ
+system_info_language_i2...string[16]...0/7...EnglishDeutschEspañolFrançaisItaliano¤éĽťťyPortugues简Ę^¤¤¤ĺÁcĹé¤¤¤ĺ
+system_info_language_i3...string[16]...0/7...EnglishDeutschEspañolFrançaisItaliano¤éĽťťyPortugues简Ę^¤¤¤ĺÁcĹé¤¤¤ĺ
+system_info_language_i4...string[16]...0/7...EnglishDeutschEspañolFrançaisItaliano¤éĽťťyPortugues简Ę^¤¤¤ĺÁcĹé¤¤¤ĺ
+system_info_language_i5...string[16]...0/7...EnglishDeutschEspañolFrançaisItaliano¤éĽťťyPortugues简Ę^¤¤¤ĺÁcĹé¤¤¤ĺ
+system_info_language_i6...string[16]...0/7...EnglishDeutschEspañolFrançaisItaliano¤éĽťťyPortugues简Ę^¤¤¤ĺÁcĹé¤¤¤ĺ
+system_info_language_i7...string[16]...0/7...EnglishDeutschEspañolFrançaisItaliano¤éĽťťyPortugues简Ę^¤¤¤ĺÁcĹé¤¤¤ĺ
+system_info_language_i8...string[16]...0/7...EnglishDeutschEspañolFrançaisItaliano¤éĽťťyPortugues简Ę^¤¤¤ĺÁcĹé¤¤¤ĺ
+system_info_customlanguage_maxcount...<integer>...0/6...1
+system_info_customlanguage_count...<integer>...0/6...0
+system_info_customlanguage_i0...string...0/6...N/A
+status_onlinenum_rtsp...integer...6/7...0
+status_onlinenum_httppush...integer...6/7...0
+status_eth_i0...<string>...1/7...<blank>
+status_vi_i0...<boolean>...1/7...0
+status_vi_i1...<boolean>...1/7...0
+status_vi_i2...<boolean>...1/7...0
+security_privilege_camctrl...view, operator, admin...1/6...view
+security_user_i0_name...string[64]...6/7...root
+security_user_i1_name...string[64]...6/7...<blank>
+security_user_i2_name...string[64]...6/7...<blank>
+security_user_i3_name...string[64]...6/7...<blank>
+security_user_i4_name...string[64]...6/7...<blank>
+security_user_i5_name...string[64]...6/7...<blank>
+security_user_i6_name...string[64]...6/7...<blank>
+security_user_i7_name...string[64]...6/7...<blank>
+security_user_i8_name...string[64]...6/7...<blank>
+security_user_i9_name...string[64]...6/7...<blank>
+security_user_i10_name...string[64]...6/7...<blank>
+security_user_i11_name...string[64]...6/7...<blank>
+security_user_i12_name...string[64]...6/7...<blank>
+security_user_i13_name...string[64]...6/7...<blank>
+security_user_i14_name...string[64]...6/7...<blank>
+security_user_i15_name...string[64]...6/7...<blank>
+security_user_i16_name...string[64]...6/7...<blank>
+security_user_i17_name...string[64]...6/7...<blank>
+security_user_i18_name...string[64]...6/7...<blank>
+security_user_i19_name...string[64]...6/7...<blank>
+security_user_i20_name...string[64]...6/7...<blank>
+security_user_i0_pass...password[64]...6/6...<blank>
+security_user_i1_pass...password[64]...7/6...<blank>
+security_user_i2_pass...password[64]...7/6...<blank>
+security_user_i3_pass...password[64]...7/6...<blank>
+security_user_i4_pass...password[64]...7/6...<blank>
+security_user_i5_pass...password[64]...7/6...<blank>
+security_user_i6_pass...password[64]...7/6...<blank>
+security_user_i7_pass...password[64]...7/6...<blank>
+security_user_i8_pass...password[64]...7/6...<blank>
+security_user_i9_pass...password[64]...7/6...<blank>
+security_user_i10_pass...password[64]...7/6...<blank>
+security_user_i11_pass...password[64]...7/6...<blank>
+security_user_i12_pass...password[64]...7/6...<blank>
+security_user_i13_pass...password[64]...7/6...<blank>
+security_user_i14_pass...password[64]...7/6...<blank>
+security_user_i15_pass...password[64]...7/6...<blank>
+security_user_i16_pass...password[64]...7/6...<blank>
+security_user_i17_pass...password[64]...7/6...<blank>
+security_user_i18_pass...password[64]...7/6...<blank>
+security_user_i19_pass...password[64]...7/6...<blank>
+security_user_i20_pass...password[64]...7/6...<blank>
+security_user_i0_privilege...view,operator,admin...6/7...admin
+security_user_i1_privilege...view,operator,admin...6/6...<blank>
+security_user_i2_privilege...view,operator,admin...6/6...<blank>
+security_user_i3_privilege...view,operator,admin...6/6...<blank>
+security_user_i4_privilege...view,operator,admin...6/6...<blank>
+security_user_i5_privilege...view,operator,admin...6/6...<blank>
+security_user_i6_privilege...view,operator,admin...6/6...<blank>
+security_user_i7_privilege...view,operator,admin...6/6...<blank>
+security_user_i8_privilege...view,operator,admin...6/6...<blank>
+security_user_i9_privilege...view,operator,admin...6/6...<blank>
+security_user_i10_privilege...view,operator,admin...6/6...<blank>
+security_user_i11_privilege...view,operator,admin...6/6...<blank>
+security_user_i12_privilege...view,operator,admin...6/6...<blank>
+security_user_i13_privilege...view,operator,admin...6/6...<blank>
+security_user_i14_privilege...view,operator,admin...6/6...<blank>
+security_user_i15_privilege...view,operator,admin...6/6...<blank>
+security_user_i16_privilege...view,operator,admin...6/6...<blank>
+security_user_i17_privilege...view,operator,admin...6/6...<blank>
+security_user_i18_privilege...view,operator,admin...6/6...<blank>
+security_user_i19_privilege...view,operator,admin...6/6...<blank>
+security_user_i20_privilege...view,operator,admin...6/6...<blank>
+network_preprocess...<positive integer>...6/6...NULL
+network_type...lan,pppoe...6/6...lan
+network_resetip...<boolean>...6/6...1
+network_ipaddress...<ip address>...6/6...<product dependent>
+network_subnet...<ip address>...6/6...<blank>
+network_router...<ip address>...6/6...<blank>
+network_dns1...<ip address>...6/6...<blank>
+network_dns2...<ip address>...6/6...<blank>
+network_wins1...<ip address>...6/6...<blank>
+network_wins2...<ip address>...6/6...<blank>
+network_ieee8021x_enable...<boolean>...6/6...0
+network_ieee8021x_eapmethod...eap-peap, eap-tls...6/6...eap-peap
+network_ieee8021x_identity_peap...String[64]...6/6...<blank>
+network_ieee8021x_identity_tls...String[64]...6/6...<blank>
+network_ieee8021x_password...String[200]...6/6...<blank>
+network_ieee8021x_privatekeypassword...String[200]...6/6...<blank>
+network_ieee8021x_ca_exist...<boolean>...6/6...0
+network_ieee8021x_ca_time...<integer>...6/7...0
+network_ieee8021x_ca_size...<integer>...6/7...0
+network_ieee8021x_certificate_exist...<boolean>...6/6...0
+network_ieee8021x_certificate_time...<integer>...6/7...0
+network_ieee8021x_certificate_size...<integer>...6/7...0
+network_ieee8021x_privatekey_exist...<boolean>...6/6...0
+network_ieee8021x_privatekey_time...<integer>...6/7...0
+network_ieee8021x_privatekey_size...<integer>...6/7...0
+network_qos_cos_enable...<boolean>...6/6...0
+network_qos_cos_vlanid...1~4095...6/6...1
+network_qos_cos_video...0~7...6/6...0
+network_qos_cos_audio...0~7...6/6...0
+network_qos_cos_eventalarm...0~7...6/6...0
+network_qos_cos_management...0~7...6/6...0
+network_qos_cos_eventtunnel...0~7...6/6...0
+network_qos_dscp_enable...<boolean>...6/6...0
+network_qos_dscp_video...0~63...6/6...0
+network_qos_dscp_audio...0~63...6/6...0
+network_qos_dscp_eventalarm...0~63...6/6...0
+network_qos_dscp_management...0~63...6/6...0
+network_qos_dscp_eventtunnel...0~63...6/6...0
+network_ipv6_enable...<boolean>...6/6...0
+network_ipv6_addonipaddress...<ip address>...6/6...<blank>
+network_ipv6_addonprefixlen...0~128...6/6...64
+network_ipv6_addonrouter...<ip address>...6/6...<blank>
+network_ipv6_addondns...<ip address>...6/6...<blank>
+network_ipv6_allowoptional...<boolean>...6/6...0
+network_ftp_port...21, 1025~65535...6/6...21
+network_http_port...80, 1025 ~ 65535...1/6...80
+network_http_alternateport...1025~65535...6/6...8080
+network_http_authmode...basic,digest...1/6...basic
+network_http_s0_accessname...string[32]...1/6...video.mjpg
+network_http_s1_accessname...string[32]...1/6...video2.mjpg
+network_http_s2_accessname...string[32]...1/6...video3.mjpg
+network_http_anonymousviewing...<boolean>...1/6...0
+network_https_port...443, 1025 ~ 65535...1/6...443
+network_rtsp_port...554, 1025 ~ 65535...1/6...554
+network_rtsp_anonymousviewing...<boolean>...1/6...0
+network_rtsp_authmode...disable,basic,digest...1/6...disable
+network_rtsp_s0_accessname...string[32]...1/6...live.sdp
+network_rtsp_s1_accessname...string[32]...1/6...live2.sdp
+network_rtsp_s2_accessname...string[32]...1/6...live3.sdp
+network_rtp_videoport...1025 ~ 65535...6/6...5556
+network_rtp_audioport...1025 ~ 65535...6/6...5558
+network_pppoe_user...string[128]...6/6...<blank>
+network_pppoe_pass...password[64]...6/6...<blank>
+videoin_c0_cmosfreq...50, 60...4/4...60
+videoin_c0_whitebalance...auto,manual,rbgain...4/4...auto
+videoin_c0_rgain...0~100...4/4...30
+videoin_c0_bgain...0~100...4/4...30
+videoin_c0_exposurelevel...0~12...4/4...6
+videoin_c0_wdrc_mode...0~1...4/4...0
+videoin_c0_wdrc_strength...0~2...4/4...1
+videoin_c0_maxgain...0~100...4/4...100
+videoin_c0_mingain...0~100...4/4...0
+videoin_c0_color...0, 1...4/4...1
+videoin_c0_flip...<boolean>...4/4...0
+videoin_c0_mirror...<boolean>...4/4...0
+videoin_c0_text...string[64]...1/4...<blank>
+videoin_c0_imprinttimestamp...<boolean>...4/4...0
+videoin_c0_textonvideo_position...top, bottom...4/4...top
+videoin_c0_textonvideo_size...15,25,30...4/4...15
+videoin_c0_minexposure...5, 15, 25, 30, 50, 60, 100, 120, 240, 250, 480, 500, 1000, 2000, 4000, 8000,16000, 32000...4/4...32000
+videoin_c0_maxexposure...5, 15, 25, 30, 50, 60, 100, 120, 240, 250, 480, 500, 1000, 2000, 4000, 8000,16000, 32000...4/4...30
+videoin_c0_enablepreview...<boolean>...1/4...0
+videoin_c0_s0_codectype...mjpeg, h264...1/4...h264
+videoin_c0_s1_codectype...mjpeg, h264...1/4...h264
+videoin_c0_s2_codectype...mjpeg, h264...1/4...h264
+videoin_c0_s0_resolution...1.3M CMOS =>176x144,320x256,640x512,<del> 980x768 </del> 960x768  ,1280x1024...1/4...1280x1024  ,  640x512(s1)
+videoin_c0_s1_resolution...1.3M CMOS =>176x144,320x256,640x512,<del> 980x768 </del> 960x768  ,1280x1024...1/4...1280x1024  ,  640x512(s1)
+videoin_c0_s2_resolution...1.3M CMOS =>176x144,320x256,640x512,<del> 980x768 </del> 960x768  ,1280x1024...1/4...1280x1024  ,  640x512(s1)
+videoin_c0_s0_h264_intraperiod...250, 500, 1000, 2000, 3000, 4000...4/4...1000
+videoin_c0_s1_h264_intraperiod...250, 500, 1000, 2000, 3000, 4000...4/4...1000
+videoin_c0_s2_h264_intraperiod...250, 500, 1000, 2000, 3000, 4000...4/4...1000
+videoin_c0_s0_h264_prioritypolicy...framerate,imagequality...4/4...FramerateImagequality(s1,s2)
+videoin_c0_s1_h264_prioritypolicy...framerate,imagequality...4/4...FramerateImagequality(s1,s2)
+videoin_c0_s2_h264_prioritypolicy...framerate,imagequality...4/4...FramerateImagequality(s1,s2)
+videoin_c0_s0_h264_ratecontrolmode...cbr, vbr...4/4...cbr
+videoin_c0_s1_h264_ratecontrolmode...cbr, vbr...4/4...cbr
+videoin_c0_s2_h264_ratecontrolmode...cbr, vbr...4/4...cbr
+videoin_c0_s0_h264_quant...1~5,99, 100...4/4...3
+videoin_c0_s1_h264_quant...1~5,99, 100...4/4...3
+videoin_c0_s2_h264_quant...1~5,99, 100...4/4...3
+videoin_c0_s0_h264_qpercent...1~100...4/4...50
+videoin_c0_s1_h264_qpercent...1~100...4/4...50
+videoin_c0_s2_h264_qpercent...1~100...4/4...50
+videoin_c0_s0_h264_qvalue...0~51...4/4...29
+videoin_c0_s1_h264_qvalue...0~51...4/4...29
+videoin_c0_s2_h264_qvalue...0~51...4/4...29
+videoin_c0_s0_h264_bitrate...1000~40000000...4/4...<del> 6 </del> 3  000000  ,512000(s1)
+videoin_c0_s1_h264_bitrate...1000~40000000...4/4...<del> 6 </del> 3  000000  ,512000(s1)
+videoin_c0_s2_h264_bitrate...1000~40000000...4/4...<del> 6 </del> 3  000000  ,512000(s1)
+videoin_c0_s0_h264_maxframe...1~25,26~30 (only for NTSC or 60Hz CMOS)...1/4...30  ,15(s1)
+videoin_c0_s1_h264_maxframe...1~25,26~30 (only for NTSC or 60Hz CMOS)...1/4...30  ,15(s1)
+videoin_c0_s2_h264_maxframe...1~25,26~30 (only for NTSC or 60Hz CMOS)...1/4...30  ,15(s1)
+videoin_c0_s0_h264_maxvbrbitrate...1000~40000000...4/4...40000000
+videoin_c0_s1_h264_maxvbrbitrate...1000~40000000...4/4...40000000
+videoin_c0_s2_h264_maxvbrbitrate...1000~40000000...4/4...40000000
+videoin_c0_s0_h264_profile...0~2...1/4...1
+videoin_c0_s1_h264_profile...0~2...1/4...1
+videoin_c0_s2_h264_profile...0~2...1/4...1
+videoin_c0_s0_mjpeg_prioritypolicy...framerate,imagequality...4/4...framerate
+videoin_c0_s1_mjpeg_prioritypolicy...framerate,imagequality...4/4...framerate
+videoin_c0_s2_mjpeg_prioritypolicy...framerate,imagequality...4/4...framerate
+videoin_c0_s0_mjpeg_ratecontrolmode...cbr, vbr...4/4...vbr
+videoin_c0_s1_mjpeg_ratecontrolmode...cbr, vbr...4/4...vbr
+videoin_c0_s2_mjpeg_ratecontrolmode...cbr, vbr...4/4...vbr
+videoin_c0_s0_mjpeg_quant...1~5,99, 100...4/4...3
+videoin_c0_s1_mjpeg_quant...1~5,99, 100...4/4...3
+videoin_c0_s2_mjpeg_quant...1~5,99, 100...4/4...3
+videoin_c0_s0_mjpeg_maxframe...1~25,26~30 (only for NTSC or 60Hz CMOS)...1/4...30  ,15(s1)
+videoin_c0_s1_mjpeg_maxframe...1~25,26~30 (only for NTSC or 60Hz CMOS)...1/4...30  ,15(s1)
+videoin_c0_s2_mjpeg_maxframe...1~25,26~30 (only for NTSC or 60Hz CMOS)...1/4...30  ,15(s1)
+videoin_c0_s0_mjpeg_qvalue...10~200...4/4...49
+videoin_c0_s1_mjpeg_qvalue...10~200...4/4...49
+videoin_c0_s2_mjpeg_qvalue...10~200...4/4...49
+videoin_c0_s0_mjpeg_qpercent...1~100...4/4...50
+videoin_c0_s1_mjpeg_qpercent...1~100...4/4...50
+videoin_c0_s2_mjpeg_qpercent...1~100...4/4...50
+videoin_c0_s0_mjpeg_bitrate...1000~40000000...4/4...<del> 14 </del> 6  000000  ,512000(s1)
+videoin_c0_s1_mjpeg_bitrate...1000~40000000...4/4...<del> 14 </del> 6  000000  ,512000(s1)
+videoin_c0_s2_mjpeg_bitrate...1000~40000000...4/4...<del> 14 </del> 6  000000  ,512000(s1)
+videoin_c0_s0_mjpeg_maxvbrbitrate...1000~40000000...4/4...40000000
+videoin_c0_s1_mjpeg_maxvbrbitrate...1000~40000000...4/4...40000000
+videoin_c0_s2_mjpeg_maxvbrbitrate...1000~40000000...4/4...40000000
+videoin_c0_s0_forcei...1...7/6...N/A
+videoin_c0_s1_forcei...1...7/6...N/A
+videoin_c0_s2_forcei...1...7/6...N/A
+videoin_c0_flickerless...0~1...4/4...0
+videoinpreview_minexposure...5, 15, 25, 30, 50, 60, 100, 120, 240, 250, 480, 500, 1000, 2000, 4000, 8000,16000, 32000...4/4...32000
+videoinpreview_maxexposure...5, 15, 25, 30, 50, 60, 100, 120, 240, 250, 480, 500, 1000, 2000, 4000, 8000,16000, 32000...4/4...30
+videoinpreview_exposurelevel...0~12...4/4...6
+videoinpreview_wdrc_mode...0~3...4/4...0
+videoinpreview_wdrc_strength...0~2...4/4...0
+videoinpreview_maxgain...0~100...4/4...100
+videoinpreview_mingain...0~100...4/4...0
+image_c0_brightness...-5 ~ 5...4/4...0
+image_c0_saturation...-5 ~ 5, 100...4/4...100
+image_c0_contrast...-5 ~ 5...4/4...0
+image_c0_sharpness...-3 ~ 3, 100...4/4...100
+image_c0_saturationpercent...0 ~ 100...4/4...50
+image_c0_sharpnesspercent...0~100...4/4...50
+image_c0_gammacurve...0, 45, 50, 60, 70, 80, 90, 100...4/4...0
+image_c0_lowlightmode...<boolean>...4/4...1
+imagepreview_c0_brightness...-5 ~ 5...4/4...0
+imagepreview_c0_saturation...-5 ~ 5, 100...4/4...100
+imagepreview_c0_contrast...-5 ~ 5...4/4...0
+imagepreview_c0_sharpness...-3 ~ 3, 100...4/4...100
+imagepreview_c0_saturationpercent...0 ~ 100...4/4...50
+imagepreview_c0_sharpnesspercent...0~100...4/4...50
+imagepreview_c0_gammacurve...0, 45, 50, 60, 70, 80, 90, 100...4/4...0
+imagepreview_c0_lowlightmode...<boolean>...4/4...1
+audioin_c0_source...linein...4/4...linein
+audioin_c0_mute...0, 1...1/4...0
+audioin_c0_gain...0~100...4/4...65
+audioin_c0_s0_codectype...g711, g726...4/4...g711
+audioin_c0_s0_g711_mode...pcmu,pcma...4/4...pcmu
+audioin_c0_s0_g726_bitrate...16000,24000,32000,40000...4/4...32000
+audioin_c0_s0_g726_bitstreampackingmode...little, big...4/4...little
+audioin_c0_s0_g726_vlcmode...0, 1...4/4...0
+audioin_c0_alarm_enable...0, 1...4/4...0
+audioin_c0_alarm_level...1~100...4/4...50
+timeshift_enable...<boolean>...4/4...0
+timeshift_c0_s0_allow...<boolean>...4/4...0  <del> 1 </del>
+timeshift_c0_s1_allow...<boolean>...4/4...0  <del> 1 </del>
+timeshift_c0_s2_allow...<boolean>...4/4...0  <del> 1 </del>
+motion_c0_enable...<boolean>...4/4...0
+motion_c0_win_i0_enable...<boolean>...4/4...0
+motion_c0_win_i1_enable...<boolean>...4/4...0
+motion_c0_win_i2_enable...<boolean>...4/4...0
+motion_c0_win_i0_name...string[14]...4/4...<blank>
+motion_c0_win_i1_name...string[14]...4/4...<blank>
+motion_c0_win_i2_name...string[14]...4/4...<blank>
+motion_c0_win_i0_left...0 ~ 320...4/4...0
+motion_c0_win_i1_left...0 ~ 320...4/4...0
+motion_c0_win_i2_left...0 ~ 320...4/4...0
+motion_c0_win_i0_top...0 ~ 240...4/4...0
+motion_c0_win_i1_top...0 ~ 240...4/4...0
+motion_c0_win_i2_top...0 ~ 240...4/4...0
+motion_c0_win_i0_width...0 ~ 320...4/4...0
+motion_c0_win_i1_width...0 ~ 320...4/4...0
+motion_c0_win_i2_width...0 ~ 320...4/4...0
+motion_c0_win_i0_height...0 ~ 240...4/4...0
+motion_c0_win_i1_height...0 ~ 240...4/4...0
+motion_c0_win_i2_height...0 ~ 240...4/4...0
+motion_c0_win_i0_objsize...0 ~ 100...4/4...0
+motion_c0_win_i1_objsize...0 ~ 100...4/4...0
+motion_c0_win_i2_objsize...0 ~ 100...4/4...0
+motion_c0_win_i0_sensitivity...0 ~ 100...4/4...0
+motion_c0_win_i1_sensitivity...0 ~ 100...4/4...0
+motion_c0_win_i2_sensitivity...0 ~ 100...4/4...0
+tampering_c0_enable...<boolean>...4/4...0
+tampering_c0_threshold...0 ~ 255...1/7...32
+tampering_c0_duration...10 ~ 600...4/4...10
+ddns_enable...<boolean>...6/6...0
+ddns_provider...Safe100,DyndnsDynamic,DyndnsCustom,CustomSafe100...6/6...DyndnsDynamic
+expresslink_enable...<boolean>...6/6...0
+expresslink_state...onlycheck,onlyoffline,checkonline,badnetwork...6/6...<blank>
+expresslink_url...string[64]...6/6...<blank>
+upnppresentation_enable...<boolean>...6/6...1
+upnpportforwarding_enable...<boolean>...6/6...0
+upnpportforwarding_upnpnatstatus...0~3...6/7...0
+syslog_enableremotelog...<boolean>...6/6...0
+syslog_serverip...<IP address>...6/6...<blank>
+syslog_serverport...514, 1025~65535...6/6...514
+syslog_level...0~7...6/6...6
+syslog_setparamlevel...0~2...6/6...0
+snmp_v2...0~1...6/6...0
+snmp_v3...0~1...6/6...0
+snmp_secnamerw...string[31]...6/6...Private
+snmp_secnamero...string[31]...6/6...Public
+snmp_authpwrw...string[8~128]...6/6...<blank>
+snmp_authpwro...string[8~128]...6/6...<blank>
+snmp_authtyperw...MD5,SHA...6/6...MD5
+snmp_authtypero...MD5,SHA...6/6...MD5
+snmp_encryptpwrw...string[8~128]...6/6...<blank>
+snmp_encryptpwro...string[8~128]...6/6...<blank>
+snmp_encrypttyperw...DES...6/6...<blank>
+snmp_encrypttypero...DES...6/6...<blank>
+snmp_rwcommunity...string[31]...6/6...Private
+snmp_rocommunity...string[31]...6/6...Public
+layout_logo_default...<boolean>...1/6...1
+layout_logo_link...string[128]...1/6...[ http://www.vivotek.com ](http://www.vivotek.com/)
+layout_logo_powerbyvvtk_hidden...<boolean>...1/6...0
+layout_theme_option...1~4...1/6...1
+layout_theme_color_font...string[7]...1/6...#000000
+layout_theme_color_configfont...string[7]...1/6...#ffffff
+layout_theme_color_titlefont...string[7]...1/6...#098bd6
+layout_theme_color_controlbackground...string[7]...1/6...#c4eaff
+layout_theme_color_configbackground...string[7]...1/6...#0186d1
+layout_theme_color_videobackground...string[7]...1/6...#c4eaff
+layout_theme_color_case...string[7]...1/6...#0186d1
+layout_custombutton_manualtrigger_show...<boolean>...1/6...1
+privacymask_c0_enable...<boolean>...4/4...0
+privacymask_c0_win_i0_enable...<boolean>...4/4 ** **...0
+privacymask_c0_win_i1_enable...<boolean>...4/4 ** **...0
+privacymask_c0_win_i2_enable...<boolean>...4/4 ** **...0
+privacymask_c0_win_i3_enable...<boolean>...4/4 ** **...0
+privacymask_c0_win_i4_enable...<boolean>...4/4 ** **...0
+privacymask_c0_win_i0_name...string[14]...4/4...<blank>
+privacymask_c0_win_i1_name...string[14]...4/4...<blank>
+privacymask_c0_win_i2_name...string[14]...4/4...<blank>
+privacymask_c0_win_i3_name...string[14]...4/4...<blank>
+privacymask_c0_win_i4_name...string[14]...4/4...<blank>
+privacymask_c0_win_i0_left...0 ~ 320  <del> /352 </del>...4/4...0
+privacymask_c0_win_i1_left...0 ~ 320  <del> /352 </del>...4/4...0
+privacymask_c0_win_i2_left...0 ~ 320  <del> /352 </del>...4/4...0
+privacymask_c0_win_i3_left...0 ~ 320  <del> /352 </del>...4/4...0
+privacymask_c0_win_i4_left...0 ~ 320  <del> /352 </del>...4/4...0
+privacymask_c0_win_i0_top...0 ~ 240  <del> /288 </del>...4/4...0
+privacymask_c0_win_i1_top...0 ~ 240  <del> /288 </del>...4/4...0
+privacymask_c0_win_i2_top...0 ~ 240  <del> /288 </del>...4/4...0
+privacymask_c0_win_i3_top...0 ~ 240  <del> /288 </del>...4/4...0
+privacymask_c0_win_i4_top...0 ~ 240  <del> /288 </del>...4/4...0
+privacymask_c0_win_i0_width...0 ~ 320  <del> /352 </del>...4/4...0
+privacymask_c0_win_i1_width...0 ~ 320  <del> /352 </del>...4/4...0
+privacymask_c0_win_i2_width...0 ~ 320  <del> /352 </del>...4/4...0
+privacymask_c0_win_i3_width...0 ~ 320  <del> /352 </del>...4/4...0
+privacymask_c0_win_i4_width...0 ~ 320  <del> /352 </del>...4/4...0
+privacymask_c0_win_i0_height...0 ~ 240  <del> /288 </del>...4/4...0
+privacymask_c0_win_i1_height...0 ~ 240  <del> /288 </del>...4/4...0
+privacymask_c0_win_i2_height...0 ~ 240  <del> /288 </del>...4/4...0
+privacymask_c0_win_i3_height...0 ~ 240  <del> /288 </del>...4/4...0
+privacymask_c0_win_i4_height...0 ~ 240  <del> /288 </del>...4/4...0
+capability_api_httpversion...0300a...0/7...0300a
+capability_bootuptime...<positive integer>...0/7...60
+capability_nir...0,<positive integer>...0/7...0
+capability_npir...0,<positive integer>...0/7...0
+capability_ndi...0,<positive integer>...0/7...0
+capability_nvi...0,<positive integer>...0/7...3
+capability_ndo...0,<positive integer>...0/7...0
+capability_naudioin...0,<positive integer>...0/7...1
+capability_naudioout...0,<positive integer>...0/7...0
+capability_nvideoin...<positive integer>...0/7...1
+capability_nvideoinprofile...<positive integer>...0/7...1
+capability_nmediastream...<positive integer>...0/7...3
+capability_nvideosetting...<positive integer>...0/7...3
+capability_naudiosetting...<positive integer>...0/7...1
+capability_nuart...0,<positive integer>...0/7...0
+capability_nmotion...0, <positive integer>...0/7...3
+capability_nmotionprofile...0, <positive integer>...0/7...1
+capability_ptzenabled...0, <positive integer>...0/7...0
+capability_windowless...<boolean>...0/7...1
+capability_eptz...0, <positive integer>...0/7...1
+capability_remotefocus...<boolean>...0/7...0
+capability_npreset...0, <positive integer>...0/7...20
+capability_protocol_https...< boolean >...0/7...1
+capability_protocol_rtsp...< boolean >...0/7...1
+capability_protocol_sip...<boolean>...0/7...0
+capability_protocol_maxconnection...<positive integer>...0/7...10
+capability_protocol_maxgenconnection...<positive integer>...0/7...10
+capability_protocol_rtp_multicast_scalable...<boolean>...0/7...1
+capability_protocol_rtp_multicast_backchannel...<boolean>...0/7...1
+capability_protocol_rtp_tcp...<boolean>...0/7...1
+capability_protocol_rtp_http...<boolean>...0/7...1
+capability_protocol_spush_mjpeg...<boolean>...0/7...1
+capability_protocol_snmp...<boolean>...0/7...1
+capability_protocol_ipv6...<boolean>...0/7...1
+capability_protocol_pppoe...<boolean>...0/7...1
+capability_protocol_ieee8021x...<boolean>...0/7...1
+capability_protocol_qos_cos...<boolean>...0/7...1
+capability_protocol_qos_dscp...<boolean>...0/7...1
+capability_protocol_ddns...<boolean>...0/7...1
+capability_videoin_type...0, 1, 2...0/7...2
+capability_videoin_resolution...<a list of available resolution separated by commas>...0/7...176x144,320x256,640x512,9  6  <del> 8 </del> 0x768,1280x1024
+capability_videoin_nresolution...< number of available resolution list>...0/7...7
+capability_videoin_maxframerate...<a list of available maximum frame rate separated by commas>...0/7...30,30,30,30,30
+capability_videoin_mjpeg_maxframerate...<a list of available maximum frame rate separated by commas>...0/7...30,30,30,30,30
+capability_videoin_h264_maxframerate...<a list of available maximum frame rate separated by commas>...0/7...30,30,30,30,30
+capability_videoin_streamcodec...< 1 ~ 15, 1~15, 1~15 (3 streams)  ><product dependent>...0/7...6,6,6
+capability_videoin_fov...<a list of available crop size separated by commas>...0/7...1280x1024
+capability_videoin_codec...mjpeg, h264...0/7...mjpeg,h264
+capability_videoin_flexiblebitrate...<boolean>...0/7...1
+capability_videoout_codec...<a list of the available codec types separated by commas)...0/7...-
+capability_timeshift...<boolean>...0/7...1
+capability_audio_aec...<boolean>...0/7...0
+capability_audio_mic...<boolean>...0/7...1
+capability_audio_extmic...<boolean>...0/7...0
+capability_audio_linein...<boolean>...0/7...0
+capability_audio_lineout...<boolean>...0/7...0
+capability_audio_headphoneout...<boolean>...0/7...0
+capability_audioin_codec...g711, g726...0/7...g711, g726
+capability_uart_httptunnel...<boolean>...0/7...0
+capability_camctrl_httptunnel...<boolean>...0/7...0
+capability_camctrl_privilege...<boolean>...0/7...1
+capability_transmission_mode...Tx,Rx,Both...0/7...Tx
+capability_network_wire...<boolean>...0/7...1
+capability_network_wireless...<boolean>...0/7...0
+capability_wireless_s802dot11b...<boolean>...0/7...0
+capability_wireless_s802dot11g...<boolean>...0/7...0
+capability_wireless_beginchannel...1 ~ 14...0/7...NULL
+capability_wireless_endchannel...1 ~ 14...0/7...NULL
+capability_wireless_encrypt_wep...<boolean>...0/7...0
+capability_wireless_encrypt_wpa...<boolean>...0/7...0
+capability_wireless_encrypt_wpa2...<boolean>...0/7...0
+capability_derivative_brand...<boolean>...0/7...1
+capability_evctrlchannel...<boolean>...0/7...1
+capability_joystick...<boolean>...0/7...1
+capability_storage_dbenabled...<boolean>...0/7...1
+capability_nanystream...0, <positive integer>...0/7...0
+capability_iva...<boolean>...0/7...0
+capability_ir...<boolean>...0/7...0
+capability_extir...<boolean>...0/7...0
+capability_whitelight...<boolean>...0/7...0
+capability_iris...<boolean>...0/7...0
+capability_tampering...<boolean>...0/7...1
+capability_temperature...<boolean>...0/7...0
+capability_version_onvifdaemon...<string>...0/7...1.7.1.12
+capability_version_onvifevent...<string>...0/7...1.1.0.10
+capability_media_totalspace...<positive integer>...0/7...20000
+capability_media_snapshot_sizepersecond...<positive integer>...0/7...500
+capability_media_snapshot_maxpreevent...<positive integer>...0/7...7
+capability_media_snapshot_maxpostevent...<positive integer>...0/7...7
+capability_media_videoclip_maxsize...<positive integer>...0/7...4096
+capability_media_videoclip_maxlength...<positive integer>...0/7...20
+capability_media_videoclip_maxpreevent...<positive integer>...0/7...9
+capability_image_wdrc...<Boolean>...0/7...1
+capability_image_iristype...<string>...0/7...dciris
+capability_image_focusassist...<Boolean>...0/7...0
+capability_localstorage_manageable...<boolean>...0/7...1
+capability_localstorage_seamless...<boolean>...0/7...1
+capability_localstorage_modnum...0,<positive integer>...0/7...4
+capability_localstorage_slconnum...0,<positive integer>...0/7...1
+capability_adaptiverecording...<boolean>...0/7...1
+capability_adaptivestreaming...<boolean>...0/7...1
+capability_supportsd...<boolean>...0/7...1
+capability_remotecamctrl_master...0, <positive integer>...0/7...0
+capability_remotecamctrl_slave...<boolean>...0/7...0
+capability_fisheye...<boolean>...0/7...0
+capability_vadp...<positive integer>...0/7...7
+event_customtaskfile_i0_name...string[40]...6/6...NULL
+event_customtaskfile_i1_name...string[40]...6/6...NULL
+event_customtaskfile_i2_name...string[40]...6/6...NULL
+event_customtaskfile_i0_date...string[20]...6/6...NULL
+event_customtaskfile_i1_date...string[20]...6/6...NULL
+event_customtaskfile_i2_date...string[20]...6/6...NULL
+event_customtaskfile_i0_time...string[20]...6/6...NULL
+event_customtaskfile_i1_time...string[20]...6/6...NULL
+event_customtaskfile_i2_time...string[20]...6/6...NULL
+event_i0_name...string[40]...6/6...NULL
+event_i1_name...string[40]...6/6...NULL
+event_i2_name...string[40]...6/6...NULL
+event_i0_enable...0, 1...6/6...0
+event_i1_enable...0, 1...6/6...0
+event_i2_enable...0, 1...6/6...0
+event_i0_priority...0, 1, 2...6/6...1
+event_i1_priority...0, 1, 2...6/6...1
+event_i2_priority...0, 1, 2...6/6...1
+event_i0_delay...1~999...6/6...20
+event_i1_delay...1~999...6/6...20
+event_i2_delay...1~999...6/6...20
+event_i0_trigger...boot,motion,seq,recnotify,tampering,vi,volalarm...6/6...boot
+event_i1_trigger...boot,motion,seq,recnotify,tampering,vi,volalarm...6/6...boot
+event_i2_trigger...boot,motion,seq,recnotify,tampering,vi,volalarm...6/6...boot
+event_i0_triggerstatus...String[40]...6/6...triggerstatus
+event_i1_triggerstatus...String[40]...6/6...triggerstatus
+event_i2_triggerstatus...String[40]...6/6...triggerstatus
+event_i0_vi...<integer>...6/6...0
+event_i1_vi...<integer>...6/6...0
+event_i2_vi...<integer>...6/6...0
+event_i0_mdwin...<integer>...6/6...0
+event_i1_mdwin...<integer>...6/6...0
+event_i2_mdwin...<integer>...6/6...0
+event_i0_mdwin0...<integer>...6/6...0
+event_i1_mdwin0...<integer>...6/6...0
+event_i2_mdwin0...<integer>...6/6...0
+event_i0_inter...1~999...6/6...1
+event_i1_inter...1~999...6/6...1
+event_i2_inter...1~999...6/6...1
+event_i0_weekday...0~127...6/6...127
+event_i1_weekday...0~127...6/6...127
+event_i2_weekday...0~127...6/6...127
+event_i0_begintime...hh:mm...6/6...00:00
+event_i1_begintime...hh:mm...6/6...00:00
+event_i2_begintime...hh:mm...6/6...00:00
+event_i0_endtime...hh:mm...6/6...24:00
+event_i1_endtime...hh:mm...6/6...24:00
+event_i2_endtime...hh:mm...6/6...24:00
+event_i0_action_cf_enable...0  ,  <del> . </del> 1...6/6...0
+event_i1_action_cf_enable...0  ,  <del> . </del> 1...6/6...0
+event_i2_action_cf_enable...0  ,  <del> . </del> 1...6/6...0
+event_i0_action_cf_folder...string[128]...6/6...NULL
+event_i1_action_cf_folder...string[128]...6/6...NULL
+event_i2_action_cf_folder...string[128]...6/6...NULL
+event_i0_action_cf_media...NULL, 0~4  ,101...6/6...NULL
+event_i1_action_cf_media...NULL, 0~4  ,101...6/6...NULL
+event_i2_action_cf_media...NULL, 0~4  ,101...6/6...NULL
+event_i0_action_cf_datefolder...<boolean>...6/6...1
+event_i1_action_cf_datefolder...<boolean>...6/6...1
+event_i2_action_cf_datefolder...<boolean>...6/6...1
+event_i0_action_cf_backup...<boolean>...6/6...0
+event_i1_action_cf_backup...<boolean>...6/6...0
+event_i2_action_cf_backup...<boolean>...6/6...0
+event_i0_action_server_i0_enable...0, 1...6/6...0
+event_i0_action_server_i1_enable...0, 1...6/6...0
+event_i0_action_server_i2_enable...0, 1...6/6...0
+event_i0_action_server_i3_enable...0, 1...6/6...0
+event_i0_action_server_i4_enable...0, 1...6/6...0
+event_i1_action_server_i0_enable...0, 1...6/6...0
+event_i1_action_server_i1_enable...0, 1...6/6...0
+event_i1_action_server_i2_enable...0, 1...6/6...0
+event_i1_action_server_i3_enable...0, 1...6/6...0
+event_i1_action_server_i4_enable...0, 1...6/6...0
+event_i2_action_server_i0_enable...0, 1...6/6...0
+event_i2_action_server_i1_enable...0, 1...6/6...0
+event_i2_action_server_i2_enable...0, 1...6/6...0
+event_i2_action_server_i3_enable...0, 1...6/6...0
+event_i2_action_server_i4_enable...0, 1...6/6...0
+event_i0_action_server_i0_media...NULL, 0~4  ,101...6/6...NULL
+event_i0_action_server_i1_media...NULL, 0~4  ,101...6/6...NULL
+event_i0_action_server_i2_media...NULL, 0~4  ,101...6/6...NULL
+event_i0_action_server_i3_media...NULL, 0~4  ,101...6/6...NULL
+event_i0_action_server_i4_media...NULL, 0~4  ,101...6/6...NULL
+event_i1_action_server_i0_media...NULL, 0~4  ,101...6/6...NULL
+event_i1_action_server_i1_media...NULL, 0~4  ,101...6/6...NULL
+event_i1_action_server_i2_media...NULL, 0~4  ,101...6/6...NULL
+event_i1_action_server_i3_media...NULL, 0~4  ,101...6/6...NULL
+event_i1_action_server_i4_media...NULL, 0~4  ,101...6/6...NULL
+event_i2_action_server_i0_media...NULL, 0~4  ,101...6/6...NULL
+event_i2_action_server_i1_media...NULL, 0~4  ,101...6/6...NULL
+event_i2_action_server_i2_media...NULL, 0~4  ,101...6/6...NULL
+event_i2_action_server_i3_media...NULL, 0~4  ,101...6/6...NULL
+event_i2_action_server_i4_media...NULL, 0~4  ,101...6/6...NULL
+event_i0_action_server_i0_datefolder...<boolean>...6/6...0
+event_i0_action_server_i1_datefolder...<boolean>...6/6...0
+event_i0_action_server_i2_datefolder...<boolean>...6/6...0
+event_i0_action_server_i3_datefolder...<boolean>...6/6...0
+event_i0_action_server_i4_datefolder...<boolean>...6/6...0
+event_i1_action_server_i0_datefolder...<boolean>...6/6...0
+event_i1_action_server_i1_datefolder...<boolean>...6/6...0
+event_i1_action_server_i2_datefolder...<boolean>...6/6...0
+event_i1_action_server_i3_datefolder...<boolean>...6/6...0
+event_i1_action_server_i4_datefolder...<boolean>...6/6...0
+event_i2_action_server_i0_datefolder...<boolean>...6/6...0
+event_i2_action_server_i1_datefolder...<boolean>...6/6...0
+event_i2_action_server_i2_datefolder...<boolean>...6/6...0
+event_i2_action_server_i3_datefolder...<boolean>...6/6...0
+event_i2_action_server_i4_datefolder...<boolean>...6/6...0
+server_i0_name...string[40]...6/6...NULL
+server_i1_name...string[40]...6/6...NULL
+server_i2_name...string[40]...6/6...NULL
+server_i3_name...string[40]...6/6...NULL
+server_i4_name...string[40]...6/6...NULL
+server_i0_type...email,ftp,http,ns...6/6...email
+server_i1_type...email,ftp,http,ns...6/6...email
+server_i2_type...email,ftp,http,ns...6/6...email
+server_i3_type...email,ftp,http,ns...6/6...email
+server_i4_type...email,ftp,http,ns...6/6...email
+server_i0_http_url...string[128]...6/6...http://
+server_i1_http_url...string[128]...6/6...http://
+server_i2_http_url...string[128]...6/6...http://
+server_i3_http_url...string[128]...6/6...http://
+server_i4_http_url...string[128]...6/6...http://
+server_i0_http_username...string[64]...6/6...NULL
+server_i1_http_username...string[64]...6/6...NULL
+server_i2_http_username...string[64]...6/6...NULL
+server_i3_http_username...string[64]...6/6...NULL
+server_i4_http_username...string[64]...6/6...NULL
+server_i0_http_passwd...string[64]...6/6...NULL
+server_i1_http_passwd...string[64]...6/6...NULL
+server_i2_http_passwd...string[64]...6/6...NULL
+server_i3_http_passwd...string[64]...6/6...NULL
+server_i4_http_passwd...string[64]...6/6...NULL
+server_i0_ftp_address...string[128]...6/6...NULL
+server_i1_ftp_address...string[128]...6/6...NULL
+server_i2_ftp_address...string[128]...6/6...NULL
+server_i3_ftp_address...string[128]...6/6...NULL
+server_i4_ftp_address...string[128]...6/6...NULL
+server_i0_ftp_username...string[64]...6/6...NULL
+server_i1_ftp_username...string[64]...6/6...NULL
+server_i2_ftp_username...string[64]...6/6...NULL
+server_i3_ftp_username...string[64]...6/6...NULL
+server_i4_ftp_username...string[64]...6/6...NULL
+server_i0_ftp_passwd...string[64]...6/6...NULL
+server_i1_ftp_passwd...string[64]...6/6...NULL
+server_i2_ftp_passwd...string[64]...6/6...NULL
+server_i3_ftp_passwd...string[64]...6/6...NULL
+server_i4_ftp_passwd...string[64]...6/6...NULL
+server_i0_ftp_port...0~65535...6/6...21
+server_i1_ftp_port...0~65535...6/6...21
+server_i2_ftp_port...0~65535...6/6...21
+server_i3_ftp_port...0~65535...6/6...21
+server_i4_ftp_port...0~65535...6/6...21
+server_i0_ftp_location...string[128]...6/6...NULL
+server_i1_ftp_location...string[128]...6/6...NULL
+server_i2_ftp_location...string[128]...6/6...NULL
+server_i3_ftp_location...string[128]...6/6...NULL
+server_i4_ftp_location...string[128]...6/6...NULL
+server_i0_ftp_passive...0, 1...6/6...1
+server_i1_ftp_passive...0, 1...6/6...1
+server_i2_ftp_passive...0, 1...6/6...1
+server_i3_ftp_passive...0, 1...6/6...1
+server_i4_ftp_passive...0, 1...6/6...1
+server_i0_email_address...string[128]...6/6...NULL
+server_i1_email_address...string[128]...6/6...NULL
+server_i2_email_address...string[128]...6/6...NULL
+server_i3_email_address...string[128]...6/6...NULL
+server_i4_email_address...string[128]...6/6...NULL
+server_i0_email_sslmode...0, 1...6/6...0
+server_i1_email_sslmode...0, 1...6/6...0
+server_i2_email_sslmode...0, 1...6/6...0
+server_i3_email_sslmode...0, 1...6/6...0
+server_i4_email_sslmode...0, 1...6/6...0
+server_i0_email_port...0~65535...6/6...25
+server_i1_email_port...0~65535...6/6...25
+server_i2_email_port...0~65535...6/6...25
+server_i3_email_port...0~65535...6/6...25
+server_i4_email_port...0~65535...6/6...25
+server_i0_email_username...string[64]...6/6...NULL
+server_i1_email_username...string[64]...6/6...NULL
+server_i2_email_username...string[64]...6/6...NULL
+server_i3_email_username...string[64]...6/6...NULL
+server_i4_email_username...string[64]...6/6...NULL
+server_i0_email_passwd...string[64]...6/6...NULL
+server_i1_email_passwd...string[64]...6/6...NULL
+server_i2_email_passwd...string[64]...6/6...NULL
+server_i3_email_passwd...string[64]...6/6...NULL
+server_i4_email_passwd...string[64]...6/6...NULL
+server_i0_email_senderemail...string[128]...6/6...NULL
+server_i1_email_senderemail...string[128]...6/6...NULL
+server_i2_email_senderemail...string[128]...6/6...NULL
+server_i3_email_senderemail...string[128]...6/6...NULL
+server_i4_email_senderemail...string[128]...6/6...NULL
+server_i0_email_recipientemail...string[640]...6/6...NULL
+server_i1_email_recipientemail...string[640]...6/6...NULL
+server_i2_email_recipientemail...string[640]...6/6...NULL
+server_i3_email_recipientemail...string[640]...6/6...NULL
+server_i4_email_recipientemail...string[640]...6/6...NULL
+server_i0_ns_location...string[128]...6/6...NULL
+server_i1_ns_location...string[128]...6/6...NULL
+server_i2_ns_location...string[128]...6/6...NULL
+server_i3_ns_location...string[128]...6/6...NULL
+server_i4_ns_location...string[128]...6/6...NULL
+server_i0_ns_username...string[64]...6/6...NULL
+server_i1_ns_username...string[64]...6/6...NULL
+server_i2_ns_username...string[64]...6/6...NULL
+server_i3_ns_username...string[64]...6/6...NULL
+server_i4_ns_username...string[64]...6/6...NULL
+server_i0_ns_passwd...string[64]...6/6...NULL
+server_i1_ns_passwd...string[64]...6/6...NULL
+server_i2_ns_passwd...string[64]...6/6...NULL
+server_i3_ns_passwd...string[64]...6/6...NULL
+server_i4_ns_passwd...string[64]...6/6...NULL
+server_i0_ns_workgroup...string[64]...6/6...NULL
+server_i1_ns_workgroup...string[64]...6/6...NULL
+server_i2_ns_workgroup...string[64]...6/6...NULL
+server_i3_ns_workgroup...string[64]...6/6...NULL
+server_i4_ns_workgroup...string[64]...6/6...NULL
+media_i0_name...string[40]...6/6...NULL
+media_i1_name...string[40]...6/6...NULL
+media_i2_name...string[40]...6/6...NULL
+media_i3_name...string[40]...6/6...NULL
+media_i4_name...string[40]...6/6...NULL
+media_i0_type...snapshot,systemlog,videoclip,recordmsg...6/6...snapshot
+media_i1_type...snapshot,systemlog,videoclip,recordmsg...6/6...snapshot
+media_i2_type...snapshot,systemlog,videoclip,recordmsg...6/6...snapshot
+media_i3_type...snapshot,systemlog,videoclip,recordmsg...6/6...snapshot
+media_i4_type...snapshot,systemlog,videoclip,recordmsg...6/6...snapshot
+media_i0_snapshot_source...0 ~ 2...6/6...0
+media_i1_snapshot_source...0 ~ 2...6/6...0
+media_i2_snapshot_source...0 ~ 2...6/6...0
+media_i3_snapshot_source...0 ~ 2...6/6...0
+media_i4_snapshot_source...0 ~ 2...6/6...0
+media_i0_snapshot_prefix...string[16]...6/6...NULL
+media_i1_snapshot_prefix...string[16]...6/6...NULL
+media_i2_snapshot_prefix...string[16]...6/6...NULL
+media_i3_snapshot_prefix...string[16]...6/6...NULL
+media_i4_snapshot_prefix...string[16]...6/6...NULL
+media_i0_snapshot_datesuffix...0, 1...6/6...0
+media_i1_snapshot_datesuffix...0, 1...6/6...0
+media_i2_snapshot_datesuffix...0, 1...6/6...0
+media_i3_snapshot_datesuffix...0, 1...6/6...0
+media_i4_snapshot_datesuffix...0, 1...6/6...0
+media_i0_snapshot_preevent...0 ~ 7...6/6...1
+media_i1_snapshot_preevent...0 ~ 7...6/6...1
+media_i2_snapshot_preevent...0 ~ 7...6/6...1
+media_i3_snapshot_preevent...0 ~ 7...6/6...1
+media_i4_snapshot_preevent...0 ~ 7...6/6...1
+media_i0_snapshot_postevent...0 ~ 7...6/6...1
+media_i1_snapshot_postevent...0 ~ 7...6/6...1
+media_i2_snapshot_postevent...0 ~ 7...6/6...1
+media_i3_snapshot_postevent...0 ~ 7...6/6...1
+media_i4_snapshot_postevent...0 ~ 7...6/6...1
+media_i0_videoclip_source...0 ~ 2...6/6...0
+media_i1_videoclip_source...0 ~ 2...6/6...0
+media_i2_videoclip_source...0 ~ 2...6/6...0
+media_i3_videoclip_source...0 ~ 2...6/6...0
+media_i4_videoclip_source...0 ~ 2...6/6...0
+media_i0_videoclip_prefix...string[16]...6/6...NULL
+media_i1_videoclip_prefix...string[16]...6/6...NULL
+media_i2_videoclip_prefix...string[16]...6/6...NULL
+media_i3_videoclip_prefix...string[16]...6/6...NULL
+media_i4_videoclip_prefix...string[16]...6/6...NULL
+media_i0_videoclip_preevent...0 ~ 9...6/6...0
+media_i1_videoclip_preevent...0 ~ 9...6/6...0
+media_i2_videoclip_preevent...0 ~ 9...6/6...0
+media_i3_videoclip_preevent...0 ~ 9...6/6...0
+media_i4_videoclip_preevent...0 ~ 9...6/6...0
+media_i0_videoclip_maxduration...1 ~ 20...6/6...5
+media_i1_videoclip_maxduration...1 ~ 20...6/6...5
+media_i2_videoclip_maxduration...1 ~ 20...6/6...5
+media_i3_videoclip_maxduration...1 ~ 20...6/6...5
+media_i4_videoclip_maxduration...1 ~ 20...6/6...5
+media_i0_videoclip_maxsize...50 ~ 4096...6/6...500
+media_i1_videoclip_maxsize...50 ~ 4096...6/6...500
+media_i2_videoclip_maxsize...50 ~ 4096...6/6...500
+media_i3_videoclip_maxsize...50 ~ 4096...6/6...500
+media_i4_videoclip_maxsize...50 ~ 4096...6/6...500
+recording_i0_name...string[40]...6/6...NULL
+recording_i1_name...string[40]...6/6...NULL
+recording_i0_enable...0, 1...6/6...0
+recording_i1_enable...0, 1...6/6...0
+recording_i0_priority...0, 1, 2...6/6...1
+recording_i1_priority...0, 1, 2...6/6...1
+recording_i0_source...0~2...6/6...0
+recording_i1_source...0~2...6/6...0
+recording_i0_limitsize...0,1...6/6...0
+recording_i1_limitsize...0,1...6/6...0
+recording_i0_cyclic...0,1...6/6...0
+recording_i1_cyclic...0,1...6/6...0
+recording_i0_notify...0,1...6/6...1
+recording_i1_notify...0,1...6/6...1
+recording_i0_notifyserver...0~31...6/6...0
+recording_i1_notifyserver...0~31...6/6...0
+recording_i0_weekday...0~127...6/6...127
+recording_i1_weekday...0~127...6/6...127
+recording_i0_begintime...hh:mm...6/6...00:00
+recording_i1_begintime...hh:mm...6/6...00:00
+recording_i0_endtime...hh:mm...6/6...24:00
+recording_i1_endtime...hh:mm...6/6...24:00
+recording_i0_prefix...string[16]...6/6...NULL
+recording_i1_prefix...string[16]...6/6...NULL
+recording_i0_cyclesize...100~...6/6...100
+recording_i1_cyclesize...100~...6/6...100
+recording_i0_reserveamount...0~15000000...6/6...100
+recording_i1_reserveamount...0~15000000...6/6...100
+recording_i0_dest...cf,0~4...6/6...cf
+recording_i1_dest...cf,0~4...6/6...cf
+recording_i0_cffolder...string[128]...6/6...NULL
+recording_i1_cffolder...string[128]...6/6...NULL
+recording_i0_trigger...schedule,networkfail...6/6...schedule
+recording_i1_trigger...schedule,networkfail...6/6...schedule
+recording_i0_adaptive_enable...0,1...6/6...0
+recording_i1_adaptive_enable...0,1...6/6...0
+recording_i0_adaptive_preevent...0~9...6/6...5
+recording_i1_adaptive_preevent...0~9...6/6...5
+recording_i0_adaptive_postevent...0~10...6/6...5
+recording_i1_adaptive_postevent...0~10...6/6...5
+recording_i0_maxsize...100~2000...6/6...100
+recording_i1_maxsize...100~2000...6/6...100
+recording_i0_maxduration...60~3600...6/6...60
+recording_i1_maxduration...60~3600...6/6...60
+https_enable...<boolean>...6/6...0
+https_policy...<Boolean>...6/6...0
+https_method...auto,manual,install...6/6...Auto
+https_status...-3 ~ 1...6/6...0
+https_countryname...string[2]...6/6...TW
+https_stateorprovincename...string[128]...6/6...Asia
+https_localityname...string[128]...6/6...Asia
+https_organizationname...string[64]...6/6...VIVOTEK Inc.
+https_unit...string[64]...6/6...VIVOTEK Inc.
+https_commonname...string[64]...6/6...www.vivotek.com
+https_validdays...0 ~ 3650...6/6...3650
+disk_i0_cyclic_enabled...<boolean>...6/6...0
+disk_i0_autocleanup_enabled...<boolean>...6/6...0
+disk_i0_autocleanup_maxage...<positive integer>...6/6...7
+roi_c0_s0_home..."0~1104","0~880"...1/6...0,0
+roi_c0_s1_home..."0~1104","0~880"...1/6...0,0
+roi_c0_s2_home..."0~1104","0~880"...1/6...0,0
+roi_c0_s0_size..."176~1280"x"144~1024"...1/6...1280x1024
+roi_c0_s1_size..."176~1280"x"144~1024"...1/6...1280x1024
+roi_c0_s2_size..."176~1280"x"144~1024"...1/6...1280x1024
+eptz_c0_osdzoom...<boolean>...1/4...1
+eptz_c0_smooth...<boolean>...1/4...1
+eptz_c0_tiltspeed...-5 ~ 5...1/7...0
+eptz_c0_panspeed...-5 ~ 5...1/7...0
+eptz_c0_zoomspeed...-5 ~ 5...1/7...0
+eptz_c0_autospeed...1 ~ 5...1/7...1
+eptz_c0_s0_patrolseq...string[120]...1/4...<blank>
+eptz_c0_s0_patroldwelling...string[160]...1/4...<blank>
+eptz_c0_s0_preset_i0_name...string[40]...1/7...<blank>
+eptz_c0_s0_preset_i1_name...string[40]...1/7...<blank>
+eptz_c0_s0_preset_i2_name...string[40]...1/7...<blank>
+eptz_c0_s0_preset_i3_name...string[40]...1/7...<blank>
+eptz_c0_s0_preset_i4_name...string[40]...1/7...<blank>
+eptz_c0_s0_preset_i5_name...string[40]...1/7...<blank>
+eptz_c0_s0_preset_i6_name...string[40]...1/7...<blank>
+eptz_c0_s0_preset_i7_name...string[40]...1/7...<blank>
+eptz_c0_s0_preset_i8_name...string[40]...1/7...<blank>
+eptz_c0_s0_preset_i9_name...string[40]...1/7...<blank>
+eptz_c0_s0_preset_i10_name...string[40]...1/7...<blank>
+eptz_c0_s0_preset_i11_name...string[40]...1/7...<blank>
+eptz_c0_s0_preset_i12_name...string[40]...1/7...<blank>
+eptz_c0_s0_preset_i13_name...string[40]...1/7...<blank>
+eptz_c0_s0_preset_i14_name...string[40]...1/7...<blank>
+eptz_c0_s0_preset_i15_name...string[40]...1/7...<blank>
+eptz_c0_s0_preset_i16_name...string[40]...1/7...<blank>
+eptz_c0_s0_preset_i17_name...string[40]...1/7...<blank>
+eptz_c0_s0_preset_i18_name...string[40]...1/7...<blank>
+eptz_c0_s0_preset_i19_name...string[40]...1/7...<blank>
+eptz_c0_s0_preset_i0_pos...<coordinate>...1/7...<blank>
+eptz_c0_s0_preset_i1_pos...<coordinate>...1/7...<blank>
+eptz_c0_s0_preset_i2_pos...<coordinate>...1/7...<blank>
+eptz_c0_s0_preset_i3_pos...<coordinate>...1/7...<blank>
+eptz_c0_s0_preset_i4_pos...<coordinate>...1/7...<blank>
+eptz_c0_s0_preset_i5_pos...<coordinate>...1/7...<blank>
+eptz_c0_s0_preset_i6_pos...<coordinate>...1/7...<blank>
+eptz_c0_s0_preset_i7_pos...<coordinate>...1/7...<blank>
+eptz_c0_s0_preset_i8_pos...<coordinate>...1/7...<blank>
+eptz_c0_s0_preset_i9_pos...<coordinate>...1/7...<blank>
+eptz_c0_s0_preset_i10_pos...<coordinate>...1/7...<blank>
+eptz_c0_s0_preset_i11_pos...<coordinate>...1/7...<blank>
+eptz_c0_s0_preset_i12_pos...<coordinate>...1/7...<blank>
+eptz_c0_s0_preset_i13_pos...<coordinate>...1/7...<blank>
+eptz_c0_s0_preset_i14_pos...<coordinate>...1/7...<blank>
+eptz_c0_s0_preset_i15_pos...<coordinate>...1/7...<blank>
+eptz_c0_s0_preset_i16_pos...<coordinate>...1/7...<blank>
+eptz_c0_s0_preset_i17_pos...<coordinate>...1/7...<blank>
+eptz_c0_s0_preset_i18_pos...<coordinate>...1/7...<blank>
+eptz_c0_s0_preset_i19_pos...<coordinate>...1/7...<blank>
+eptz_c0_s0_preset_i0_size...<window size>...1/7...<blank>
+eptz_c0_s0_preset_i1_size...<window size>...1/7...<blank>
+eptz_c0_s0_preset_i2_size...<window size>...1/7...<blank>
+eptz_c0_s0_preset_i3_size...<window size>...1/7...<blank>
+eptz_c0_s0_preset_i4_size...<window size>...1/7...<blank>
+eptz_c0_s0_preset_i5_size...<window size>...1/7...<blank>
+eptz_c0_s0_preset_i6_size...<window size>...1/7...<blank>
+eptz_c0_s0_preset_i7_size...<window size>...1/7...<blank>
+eptz_c0_s0_preset_i8_size...<window size>...1/7...<blank>
+eptz_c0_s0_preset_i9_size...<window size>...1/7...<blank>
+eptz_c0_s0_preset_i10_size...<window size>...1/7...<blank>
+eptz_c0_s0_preset_i11_size...<window size>...1/7...<blank>
+eptz_c0_s0_preset_i12_size...<window size>...1/7...<blank>
+eptz_c0_s0_preset_i13_size...<window size>...1/7...<blank>
+eptz_c0_s0_preset_i14_size...<window size>...1/7...<blank>
+eptz_c0_s0_preset_i15_size...<window size>...1/7...<blank>
+eptz_c0_s0_preset_i16_size...<window size>...1/7...<blank>
+eptz_c0_s0_preset_i17_size...<window size>...1/7...<blank>
+eptz_c0_s0_preset_i18_size...<window size>...1/7...<blank>
+eptz_c0_s0_preset_i19_size...<window size>...1/7...<blank>
+exposurewin_c0_mode...auto, custom, blc...6/6...auto
+exposurewin_c0_win_i0_enable...<boolean>...6/6...1
+exposurewin_c0_win_i0_policy...0~1...6/6...1
+exposurewin_c0_win_i0_home..."0~288","0~208"...6/6...80,60
+exposurewin_c0_win_i0_size..."0~320"x"0~240"...6/6...160x120
+seamlessrecording_diskmode...seamless,manageable...1/6...seamless
+seamlessrecording_maxconnection...3...1/6...3
+seamlessrecording_stream...1  <del> 0 </del> ~3...1/6...1
+seamlessrecording_output...0~  <del> 3 </del> 2...1/6...2
+seamlessrecording_enable...<boolean>...1/6...0
+seamlessrecording_guid0_id...string[127]...1/6...<blank>
+seamlessrecording_guid1_id...string[127]...1/6...<blank>
+seamlessrecording_guid2_id...string[127]...1/6...<blank>
+seamlessrecording_guid0_number...0~3...1/6...0
+seamlessrecording_guid1_number...0~3...1/6...0
+seamlessrecording_guid2_number...0~3...1/6...0
+genetec_image_contrast...<integer>...7/7...50
+genetec_image_brightness...<integer>...7/7...0
+genetec_motion_i0...<integer>...7/7...0,0,0,0
+genetec_motion_i1...<integer>...7/7...0,0,0,0
+genetec_motion_i2...<integer>...7/7...0,0,0,0

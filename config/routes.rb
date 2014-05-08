@@ -1,4 +1,6 @@
 DqaStreesfulServer::Application.routes.draw do
+  resources :url_commands
+
   resources :users
   root :to => "welcome#index"
   get "sandbox" => "welcome#sandbox"

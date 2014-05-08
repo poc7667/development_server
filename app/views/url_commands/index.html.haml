@@ -1,0 +1,21 @@
+%h1 Listing url_commands
+
+%table
+  %tr
+    %th Model name
+    %th Firmware version
+    %th
+    %th
+    %th
+
+  - @url_commands.each do |url_command|
+    %tr
+      %td= url_command.model_name
+      %td= url_command.firmware_version
+      %td= link_to 'Show', url_command
+      %td= link_to 'Edit', edit_url_command_path(url_command)
+      %td= link_to 'Destroy', url_command, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Url command', new_url_command_path
