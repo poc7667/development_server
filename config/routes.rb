@@ -1,9 +1,15 @@
 DqaStreesfulServer::Application.routes.draw do
-  resources :url_commands
+  
+  resources :url_commands do
+    collection do
+      get :get_param
+    end
+  end
 
   resources :users
   root :to => "welcome#index"
   get "sandbox" => "welcome#sandbox"
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

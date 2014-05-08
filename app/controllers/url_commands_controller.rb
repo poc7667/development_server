@@ -7,6 +7,22 @@ class UrlCommandsController < ApplicationController
     @url_commands = UrlCommand.all
   end
 
+  def get_param
+
+    if params.has_key?("model_name") and  params.has_key?("firmware_version")
+      @url_commands = UrlCommand.where(" model_name = ? and firmware_version = ?",
+        params[:model_name], 
+        params[:firmware_version]
+      ).all
+      return true
+    end
+    @url_commands = UrlCommand.first(1)
+    # respond_to do |format|
+      # format.json {render json: @url_commands.as_json(only:[:cgi_attributes])}
+      # format.json {render json: @url_commands}
+    # end
+  end
+
   # GET /url_commands/1
   # GET /url_commands/1.json
   def show
