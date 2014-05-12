@@ -13,7 +13,8 @@ class UrlCommandsController < ApplicationController
       @url_commands = UrlCommand.where(" model_name = ? and firmware_version = ?",
         params[:model_name], 
         params[:firmware_version]
-      ).all
+      # ).all
+      ).first(20)
       return true
     end
     @url_commands = UrlCommand.first(1)
