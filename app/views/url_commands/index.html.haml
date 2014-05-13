@@ -1,12 +1,12 @@
 %h1 Listing url_commands
 
-%table
-  %tr
-    %th Model name
-    %th Firmware version
-    %th CGI name
-    %th
-    %th
+%table.table.table-striped.table-bordered.table-hover
+  %thead
+    %tr
+      %th.center Model name
+      %th.center Firmware version
+      %th.center CGI name
+      %th.center
 
   - @url_commands.each do |url_command|
     %tr
