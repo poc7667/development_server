@@ -5,7 +5,44 @@
     = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
     = javascript_include_tag "application", "data-turbolinks-track" => true
     / Description, Keywords and Author
+    / basic styles
+    %link{href: asset_path("ace-admin-theme/css/bootstrap.min.css"), rel: "stylesheet"}/
+    %link{href: asset_path("ace-admin-theme/css/font-awesome.min.css"), rel: "stylesheet"}/
+    /[if IE 7]
+      <link rel="stylesheet" href=asset_path("ace-admin-theme/css/font-awesome-ie7.min.css") />
+    / page specific plugin styles
+    / fonts
+    %link{href: asset_path("ace-admin-theme/css/ace-fonts.css"), rel: "stylesheet"}/
+    / ace styles
+    %link{href: asset_path("ace-admin-theme/css/ace.min.css"), rel: "stylesheet"}/
+    %link{href: asset_path("ace-admin-theme/css/ace-rtl.min.css"), rel: "stylesheet"}/
+    %link{href: asset_path("ace-admin-theme/css/ace-skins.min.css"), rel: "stylesheet"}/
+    %link{href: asset_path("ace-admin-theme/css/style.css"), rel: "stylesheet"}/
+    /[if lte IE 8]
+      <link rel="stylesheet" href="css/ace-ie.min.css" />
+    / inline styles related to this page
+    / ace settings handler
+    %script{src: asset_path("ace-admin-theme/js/ace-extra.min.js")}
+
     = csrf_meta_tags
-  %body    
+
+  %body   
+    = render 'layouts/header' 
     = yield
 
+  %script{src: asset_path("ace-admin-theme/js/bootstrap.min.js")}
+  %script{src: asset_path("ace-admin-theme/js/typeahead-bs2.min.js")}
+  / page specific plugin scripts
+  /[if lte IE 8]
+  %script{src: asset_path("ace-admin-theme/js/excanvas.min.js")}
+  %script{src: asset_path("ace-admin-theme/js/jquery-ui-1.10.3.custom.min.js")}
+  %script{src: asset_path("ace-admin-theme/js/jquery.ui.touch-punch.min.js")}
+  %script{src: asset_path("ace-admin-theme/js/jquery.slimscroll.min.js")}
+  %script{src: asset_path("ace-admin-theme/js/jquery.easy-pie-chart.min.js")}
+  %script{src: asset_path("ace-admin-theme/js/jquery.sparkline.min.js")}
+  %script{src: asset_path("ace-admin-theme/js/flot/jquery.flot.min.js")}
+  %script{src: asset_path("ace-admin-theme/js/flot/jquery.flot.pie.min.js")}
+  %script{src: asset_path("ace-admin-theme/js/flot/jquery.flot.resize.min.js")}
+  / ace scripts
+  %script{src: asset_path("ace-admin-theme/js/ace-elements.min.js")}
+  %script{src: asset_path("ace-admin-theme/js/ace.min.js")}
