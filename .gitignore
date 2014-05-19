@@ -43,15 +43,4 @@ config/database.yml
 *.DS_Store
 *.swp
 *.out
-
-
-/public/assets/tinymce-c266431f23d7c845f24537569adcf7b4.js.gz
-/public/assets/tinymce-c266431f23d7c845f24537569adcf7b4.js
-/public/assets/bootstrap/glyphicons-halflings-regular-777bc40741c377d9f064d1ed31041f79.svg
-/public/assets/bootstrap/glyphicons-halflings-regular-41eac767e76e3241f42674b78614369e.woff
-/public/assets/bootstrap/glyphicons-halflings-regular-38ab34013ba10653660d52a9cf85d53e.ttf
-/public/assets/bootstrap/glyphicons-halflings-regular-147f3f6e098736e89ffab2c15cfbef06.eot
-/public/assets/application-d0b54dd563966c42aad5fd85b1c1f713.css.gz
-/public/assets/application-d0b54dd563966c42aad5fd85b1c1f713.css
-/public/assets/application-8cbc2c3a3a5df5e38add8d2e0abc15c7.js.gz
-/public/assets/application-8cbc2c3a3a5df5e38add8d2e0abc15c7.js
+public/assets/
