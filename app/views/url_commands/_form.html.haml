@@ -1,10 +1,17 @@
-= simple_form_for(@url_command) do |f|
-  = f.error_notification
+.page-header
+  %h1 HIHI
+.row
+  .col-xs-12
+    = simple_form_for(@url_command) do |f|
+      %div.form-horizontal
+        = f.error_notification
 
-  .form-inputs
-    = f.input :model_name
-    = f.input :firmware_version
-    = f.input :cgi_name
+        .form-inputs
+          .div.form-group
+            .col-sm-9
+              = f.input :model_name
+          = f.input :firmware_version
+          = f.input :cgi_name
 
-  .form-actions
-    = f.button :submit
+        .form-actions
+          = f.button :submit

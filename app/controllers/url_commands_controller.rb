@@ -4,7 +4,7 @@ class UrlCommandsController < ApplicationController
   # GET /url_commands
   # GET /url_commands.json
   def index
-    @url_commands = UrlCommand.all
+    @url_commands = UrlCommand.first(5)
   end
 
   def get_param
