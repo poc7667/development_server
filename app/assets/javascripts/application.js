@@ -12,6 +12,4 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree ../lenord-single-page-theme/js
-//= require_tree ../ace-admin-theme/js
 //= require_tree .
