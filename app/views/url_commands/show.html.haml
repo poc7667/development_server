@@ -6,6 +6,9 @@
 %p
   %b Firmware version:
   = @url_command.firmware_version
+%p
+  %b Attributes:
+  = @url_command.cgi_attributes
 
 = link_to 'Edit', edit_url_command_path(@url_command)
 \|
