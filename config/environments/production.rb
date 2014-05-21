@@ -28,7 +28,7 @@ DqaStreesfulServer::Application.configure do
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   # we won't want live compile it
-  config.assets.compile = false
+  config.assets.compile = true
 
   # Generate digests for assets URLs.
   config.assets.digest = true
@@ -64,7 +64,7 @@ DqaStreesfulServer::Application.configure do
   # config.assets.precompile += %w( vendor/themes/* )
   config.assets.precompile += %w( vendor/themes/**/application.js )
   config.assets.precompile += %w( vendor/themes/**/application.css )
-  # config.assets.precompile += %w[*.png *.jpg *.jpeg *.gif] 
+  config.assets.precompile += %w[*.png *.jpg *.jpeg *.gif] 
 
   # Precompile *all* assets, except those that start with underscore
   config.assets.precompile << /(^[^_\/]|\/[^_])[^\/]*$/
