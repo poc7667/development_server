@@ -6,7 +6,7 @@
           .div.form-group
             %label.col-sm-3.control-label.no-padding-right{for: "form-field-1"} Model Name
             .col-sm-9
-              = f.text_field :model_name, class: 'input-xxlarge' 
+              = f.text_field :model_name, class: 'input-xxlarge' , :disabled => true
       .space-4
 
       .form-group
@@ -14,7 +14,7 @@
           .div.form-group
             %label.col-sm-3.control-label.no-padding-right{for: "form-field-1"} Firmware Version
             .col-sm-9
-              = f.text_field :firmware_version, class: 'input-xxlarge' 
+              = f.text_field :firmware_version, class: 'input-xxlarge' , :disabled => true
       .space-4
 
       .form-group
@@ -31,4 +31,4 @@
 
       .clearfix.form-actions
         .col-md-offset-3.col-md-9
-          = f.submit 'save'
+          = f.submit 'save', class: 'btn btn-info'
