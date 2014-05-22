@@ -2,7 +2,13 @@
 .service
   .container
     %h2.head SERVICE
-    %p.para Automated Service
+    %h3 Automated Service
+    %p
+      In software testing, test automation is the use of special software (separate from the software being tested) 
+      to control the execution of tests and the comparison of actual outcomes with predicted outcomes.
+    %p
+      Test automation can automate some repetitive but necessary tasks in a formalized testing process already in place, or add additional testing that would be difficult to perform manually.
+    %h2
     / .service-top
     /   .row
     /     .col-md-3.col-sm-3
@@ -48,27 +54,28 @@
           / Service Icon
           %i.fa.fa-spinner
           / Heading
-          %h3 Video and Audio
+          %h3 Video/Audio
           / Paragraph
           %p Guranttee Image Issue
       .col-md-4.col-sm-4
         / Service Item
         .service-item
           %i.fa.fa-cog
-          %h3 Network Test
-          %p CGI
+          %h3 Network 
+          %p 
+            = link_to("CGI database", url_commands_path)
       .col-md-4.col-sm-4
         / Service Item
         .service-item
           %i.fa.fa-bug
-          %h3 Programmable Hardware 
+          %h3 Hardware 
           %p Use Programmable Hardware Controller to let our tests be automated.
     .row
       .col-md-4.col-sm-4
         / Service Item
         .service-item
           %i.fa.fa-pencil
-          %h3 Documentation Check
+          %h3 Documentation
           %p Ensure the documents correctness.
       .col-md-4.col-sm-4
         / Service Item

@@ -1,0 +1,26 @@
+%h1 Listing url_commands
+
+%table.table.table-striped.table-bordered.table-hover
+  %thead
+    %tr
+      %th.center Model name
+      %th.center Firmware version
+      %th.center CGI name
+      %th.center
+
+  - @url_commands.each do |url_command|
+    %tr
+      %td.center= url_command.model_name
+      %td= url_command.firmware_version
+      %td= url_command.cgi_name
+      %td.center
+        = link_to 'Show', url_command, :class => "btn btn-xs btn-success"
+        = link_to 'Edit', edit_url_command_path(url_command), :class => "btn btn-xs btn-warning"
+        = link_to 'Destroy', url_command, :method => :delete, |
+         :data => { :confirm => 'Are you sure?' }, :class => "btn btn-xs btn-danger"
+      
+      
+
+%br
+
+= link_to 'New Url command', new_url_command_path, :class => "btn btn-info"
