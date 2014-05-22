@@ -35,7 +35,7 @@ capybara-*.html
 
 #for store secret file
 config/application.yml
-config/database.yml
+#config/database.yml
 
 ## generic files to ignore
 *~
