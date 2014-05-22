@@ -24,11 +24,10 @@
             .col-sm-9
               = f.text_field :cgi_name, class: 'input-xxlarge' 
       .space-4
-
-      
-      - [:name, :range, :security].each do | column |
-        = render :partial => 'attributes' , :locals => { f: f, column: column }
-
+                                  
+      - f.object.cgi_attributes.try(:each) do |key, value|
+        = f.fields_for :cgi_attributes do |d|      
+          = render :partial => 'attributes' , :locals => { f: f, column: key, d: d, value: value }
 
       .clearfix.form-actions
         .col-md-offset-3.col-md-9
