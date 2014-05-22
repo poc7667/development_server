@@ -7,10 +7,9 @@ namespace :sample_URL_Commands  do
       line.strip!
       params = line.split('...')
       attributes ={
-        :name => params[0],
         :range => params[1],
         :security => params[2],
-        :dafault_value => params[3],
+        :default_value => params[3],
       }
       url = UrlCommand.new(
         :model_name => "FD8156",
