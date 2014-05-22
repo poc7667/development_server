@@ -1,17 +1,35 @@
-.page-header
-  %h1 HIHI
-.row
+.row  
   .col-xs-12
-    = simple_form_for(@url_command) do |f|
-      %div.form-horizontal
-        = f.error_notification
-
+    = form_for(@url_command, :html=> {class: "form-horizontal"} ) do |f|
+      .form-group
         .form-inputs
           .div.form-group
+            %label.col-sm-3.control-label.no-padding-right{for: "form-field-1"} Model Name
             .col-sm-9
-              = f.input :model_name
-          = f.input :firmware_version
-          = f.input :cgi_name
+              = f.text_field :model_name, class: 'input-xxlarge' 
+      .space-4
 
-        .form-actions
-          = f.button :submit
+      .form-group
+        .form-inputs
+          .div.form-group
+            %label.col-sm-3.control-label.no-padding-right{for: "form-field-1"} Firmware Version
+            .col-sm-9
+              = f.text_field :firmware_version, class: 'input-xxlarge' 
+      .space-4
+
+      .form-group
+        .form-inputs
+          .div.form-group
+            %label.col-sm-3.control-label.no-padding-right{for: "form-field-1"} CGI Name
+            .col-sm-9
+              = f.text_field :cgi_name, class: 'input-xxlarge' 
+      .space-4
+
+      
+      - [:name, :range, :security].each do | column |
+        = render :partial => 'attributes' , :locals => { f: f, column: column }
+
+
+      .clearfix.form-actions
+        .col-md-offset-3.col-md-9
+          = f.submit 'save'
