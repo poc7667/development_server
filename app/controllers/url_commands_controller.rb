@@ -86,6 +86,8 @@ class UrlCommandsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def url_command_params
-      params.require(:url_command).permit(:model_name, :firmware_version, :cgi_attributes, :cgi_name)
+      params.require(:url_command).permit(:model_name, :firmware_version, :cgi_attributes,
+                                           :cgi_name,:name, :range, :security)
+      
     end
 end
