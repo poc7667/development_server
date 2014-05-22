@@ -25,14 +25,11 @@
               = f.text_field :cgi_name, class: 'input-xxlarge' 
       .space-4
 
-      .form-group
-        .form-inputs
-          .div.form-group
-            %label.col-sm-3.control-label.no-padding-right{for: "form-field-1"} Attributes
-            .col-sm-9
-              = f.text_area :cgi_attributes, class: 'input-xxlarge' 
-      .space-4      
       
+      - [:name, :range, :security].each do | column |
+        = render :partial => 'attributes' , :locals => { f: f, column: column }
+
+
       .clearfix.form-actions
         .col-md-offset-3.col-md-9
-          = f.submit 'save', type: 'button', class: 'btn btn-info'
+          = f.submit 'save'
